@@ -36,11 +36,27 @@ nav li a:hover {
 	color: #000;
 }
 
+nav a#pull {
+  display: none;
+}   
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+
 /* End Nav*/
 
-body {
+/*body {
 	font-size: 100%;
-}
+}*/
 
 /* Welcome */
 
@@ -239,17 +255,6 @@ ul.img-list li:hover span.text-content {
 	display: inline-block;
 }
 
-@media only screen and (max-width: 400px) {
-body { font-size:90%;}
-}
-
-@media only screen and (max-width: 800px) {
-body { font-size:100%;}
-} 
-
-@media only screen and (max-width: 1100px) {
-body { font-size:120%;}
-}
 
 /* End Quote */
 
