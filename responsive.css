@@ -1,16 +1,18 @@
 @media screen and (max-width: 480px) {
 body { 
 	font-size:90%;
+	padding-top: 80px;
 }
 
 nav {
     border-bottom: 0;
   }
 
-nav ul {
+#navul {
     display: none;
     height: auto;
   }
+  
  nav a#pull {
     display: block;
     background-color: #fff;
@@ -33,6 +35,7 @@ nav ul {
 @media only screen and (max-width: 800px) {
 body { 
 	font-size:100%;
+	padding-top: 40px;
 }
  
 nav { 
