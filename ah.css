@@ -165,10 +165,11 @@ ul.img-list li:hover span.text-content {
 }
 
 .pagetext {
-	text-align: center-left;
+	text-align: center;
 	margin: 0 120 40 120;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 15px;
+	width: 80%;
 }
 
 .list {
