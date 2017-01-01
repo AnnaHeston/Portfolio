@@ -29,6 +29,14 @@ nav {
     right: 15px;
     top: 10px;
   }
+  
+  .pagetext {
+	text-align: center-left;
+	margin: 0 40 40 40;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	width: 80%;
+}
 
 }
 
@@ -59,6 +67,13 @@ nav a {
       width: 100%;
       text-indent: 25px;
     }
+	
+.pagetext {
+	text-align: center-left;
+	margin: 0 60 40 60;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	width: 80%;
 	
 } 
 
