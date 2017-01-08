@@ -149,8 +149,27 @@ span.text-content span {
   text-align: center;
   vertical-align: middle;
   font-family: 'Bad Script', cursive;
-  font-size: 30px;
+  
 }
+
+#project1 {
+	font-size: 30px;
+}
+
+#project2 {
+	font-size: 30px;
+}
+
+#project3 {
+  font-size: 25px;
+}
+
+#project4 {
+	font-size: 30px;
+}
+
+
+
 	
 ul.img-list li:hover span.text-content {
   opacity: 1;
