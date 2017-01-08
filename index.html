@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Anna Heston | Software Developer</title>
+		<title>Anna Heston | Front End Developer</title>
 		<link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 		<link rel="shortcut icon" href="./images/favicon.png" />
@@ -13,36 +13,37 @@
 		<script type="text/javascript" src="./jquery-3.1.1.min.js"></script>
 		<script type="text/javascript" src="./AnnaWebsite.js"></script>
 	</head>
-	<header>
-		<nav class="navbar navbar-default navbar-fixed-top clearfix">
-			<div class="container">
-			<ul class= "clearfix" id= "navul">
-				<a href="./index.html"><li>Home</li></a>
-				<a href="#contact"><li>Contact</li></a>
-				<a href="./communication.html"><li>Communication</li></a>
-				<a href="./technicalbackground.html"><li>Technical Background</li></a>
-				<a href="./projects.html"><li>Projects</li></a>
-				<a href="./personalinterests.html"><li>Personal Interests</li></a>
-				<a href="./resumeannaheston.pdf"><li>Resume</li></a>
-			</ul>
-			<a href="#" id="pull"></a>
-			</div>
-		</nav>
-	</header>
-	<body>
+	<body class="container-fluid">
+		<header class="row">
+			<nav class="navbar navbar-default navbar-fixed-top clearfix">
+				<div id="navDiv">
+					<ul class= "clearfix" id= "navul">
+						<a href="./index.html"><li>Home</li></a>
+						<a href="#contact"><li>Contact</li></a>
+						<a href="./communication.html"><li>Communication</li></a>
+						<a href="./technicalbackground.html"><li>Technical Background</li></a>
+						<a href="./projects.html"><li>Projects</li></a>
+						<a href="./personalinterests.html"><li>Personal Interests</li></a>
+						<a href="./resumeannaheston.pdf"><li>Resume</li></a>
+					</ul>
+					<a href="#" id="pull"></a>
+				</div>
+			</nav>
+		</header>
+	
 		<!--HOME -->
-		<div id="home">
+		<div class="row" id="home">
 			<div class="home-container">
 				<div class="text-center">
 					<span class="head-main">Anna Heston</span>
-					<h2 id="subheading">Software Developer</h2>
+					<h2 id="subheading">Front End Developer</h2>
 				</div>
 			</div>
 		</div>
 		<!--END HOME -->
 		
 		<!--ABOUT-->
-		<section id="sectionabout">
+		<section class="row" id="sectionabout">
 			<div class="container1">
 				<h1 id="About">About</h1>
 				<ul class="img-list">
@@ -76,7 +77,7 @@
 		<!--End About-->
 		
 		<!--Contact-->
-		<section>
+		<section class="row">
 			<div id="contact">
 				<button type="button" class="button1">Contact</button>
 			</div>
@@ -91,17 +92,18 @@
 		<!--End Contact-->
 		
 		<!--Quote-->
-		<div id="quote">
+		<div class="row" id="quote">
 			<span id="inspire">The details are not the details. They make the design. -Charles Eames</span>
 		</div>
 		<!--End Quote-->
-	</body>
 	
-	<footer>
+	
+	<footer class="row">
 		<a href="https://www.facebook.com/anna.andersonheston"><img src="./images/logomakr_9oAxA0.png" alt="Facebook Logo" class="social-icon"></a>
 		<a href="https://github.com/AnnaHeston"><img src="./images/logomakr_0fOm3u.png" alt="GitHub Logo" class="social-icon"></a>
 		<a href="https://www.linkedin.com/in/anna-heston-4b99a3b8"><img src="./images/logomakr_7Em482.png" alt="LinkedIn Logo" class="social-icon"></a>
         <p>&copy; 2016 Anna Heston</p>
 	</footer>
+	</body>
 
 </html>
